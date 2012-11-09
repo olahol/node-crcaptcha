@@ -1,0 +1,8 @@
+{
+    "name": "crcaptcha",
+    "description": "Show and check the Civil Rights Captcha",
+    "version": "1.0.0",
+    "author": "Ola Holmström <olaholmstrom+github@gmail.com>",
+    "main": "./lib/crcaptcha.js",
+    "engines": { "node": ">= 0.6.0" }
+}
