@@ -1,8 +1,19 @@
 {
     "name": "crcaptcha",
     "description": "Show and check the Civil Rights Captcha",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Ola Holmström <olaholmstrom+github@gmail.com>",
+    "keywords": ["captcha"],
     "main": "./lib/crcaptcha.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/olahol/node-crcaptcha.git"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "http://github.com/olahol/node-crcaptcha/raw/master/LICENSE"
+        }
+    ],
     "engines": { "node": ">= 0.6.0" }
 }

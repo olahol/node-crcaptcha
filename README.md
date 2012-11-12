@@ -6,19 +6,14 @@ Renders and checks the [Civil Rights Captcha](http://captcha.civilrightsdefender
 Installation
 ------------
 
-Via git:
-
-    $ git clone git://github.com/olahol/node-crcaptcha.git ~/.node_libraries/node-crcaptcha
-
-Via npm:
-
     $ npm install crcaptcha
 
 Library
 -------
 
-### crcaptcha.show(callback(err, captchaHtml))
-Requests a captcha form.
+### crcaptcha.show(callback(err, captchaHtml), lang = en)
+Requests a captcha form. The two languages currently supported are Swedish (sv)
+and English (en.)
 
 * * *
 
